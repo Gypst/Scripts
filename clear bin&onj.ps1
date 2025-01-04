@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\_home\repo\smartptt" -Recurse -Directory -Include "bin", "obj" | Remove-Item -Force -Recurse
